@@ -4,9 +4,10 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>moyuban</groupId>
-    <artifactId>anan</artifactId>
+    <groupId>com.ajie</groupId>
+    <artifactId>moyuban</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <packaging>jar</packaging>
     <build>
         <plugins>
             <plugin>
@@ -19,6 +20,14 @@
             </plugin>
         </plugins>
     </build>
+
+    <dependencies>
+        <dependency>
+            <groupId>cn.hutool</groupId>
+            <artifactId>hutool-all</artifactId>
+            <version>5.8.0</version>
+        </dependency>
+    </dependencies>
 
 
 </project>
