@@ -154,6 +154,11 @@ public class TextUtil {
 
         return Integer.parseInt(String.valueOf(between_days));
     }
+
+    /**
+     * 获取摸鱼文案
+     * @return 文案
+     */
     public static String getText(){
         //初始化字符串
         StringBuilder sb = new StringBuilder();
